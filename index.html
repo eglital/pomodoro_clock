@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Prompt:400,600" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Bootstrap Javascripts -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <title>Pomodoro Clock</title>
+  </head>
+
+  <body>
+    <audio>
+      <source src="http://www.myinstants.com/media/sounds/alert-hq.mp3"></source>
+    </audio>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>Pomodoro Clock</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-4">
+          <h3>Break Length</h3>
+          <button type="button" class="reg" id="minusB">-</button>
+          <span id="break">5</span>
+          <button type="button" class="reg" id="plusB">+</button>
+          <h3>Session Length</h3>
+          <button type="button" class="reg" id="minusS">-</button>
+          <span id="session">25</span>
+          <button type="button" class="reg" id="plusS">+</button>
+          <br>
+          <button type="button" class="apply" id="apply">Apply</button>
+          <br>
+          <button type="button" class="apply" id="restart">Restart</button>
+          <br>
+          <button type="button" class="apply" id="reset">Reset</button>
+          <br>
+          <div class="rules">
+            <p>Click reset to go back to original settings.</p>
+          </div>
+         </div>
+
+        <div class="col-xs-8">
+          <div class="clock">
+            <h4 id="title">Work!</h4>
+            <h4 id="timer">25:00</h4>
+          </div>
+          <div class="rules" id="rules1">
+            <p>Click on the clock to start the timer. Click again to pause/resume.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+    <footer><i class="fa fa-copyright" area-hidden="true"></i> Egle Libby</footer>
+
+  </body>
+
+</html>

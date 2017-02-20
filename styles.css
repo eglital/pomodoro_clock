@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+  font-family: 'Prompt', sans-serif;
+  color: white;
+  background-color: #3d3d5c;
+  min-height: 100vh;
+  position: relative;
+}
+h1 {
+  font-size: 3.4em;
+  margin: 30px auto;
+  text-shadow: 2px 2px #666699;
+}
+h3 {
+  font-weight: 600;
+  text-shadow: 1px 1px #666699;
+  margin-bottom: 0;
+}
+.reg {
+  background-color: #3d3d5c;
+  font-size: 30px;
+  border: none;
+}
+.reg:focus {
+  outline: none;
+}
+span {
+  font-size: 27px;
+}
+.apply {
+  font-size: 20px;
+  border: 1px solid white;
+  background-color: #3d3d5c;
+  border-radius: 5px;
+  margin: 10px;
+  width: 100px;
+}
+.apply:focus {
+  outline: none;
+}
+.apply:active {
+  border: 1px solid #666699;
+}
+#apply {
+  margin-top: 40px;
+}
+.rules {
+  font-size: 15px;
+  margin-top: 30px;
+}
+#rules1{
+  margin-top: 65px;
+}
+.clock:hover {
+  cursor: pointer;
+}
+.clock {
+  border: 1px solid #e0e0eb;
+  border-radius: 100%;
+  box-shadow: 0 0 0 2px #e0e0eb;
+  height: 300px;
+  width: 300px;
+  margin: 30px auto;
+  padding-top: 80px;
+  background-color: #666699;
+}
+h4 {
+  font-size: 40px;
+}
+footer {
+  bottom: 2px;
+  left: 0;
+  text-align: left;
+  position: absolute;
+}
